@@ -4,17 +4,50 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        table{
+        table {
             border-collapse: collapse;
-            text-align: center  ;
-            padding: 10px;
+            text-align: center;
+            padding: 20px;
             width: 200px;
         }
-        .foto{
+
+        .color1 {
+            background-color: limegreen;
         }
 
-        .foto{
-            background-image: src="C:\Users\ма\Desktop\Internet" ;
+        .color2 {
+            background-color: red;
+        }
+
+        .color3 {
+            background-color: orange;
+        }
+
+        .color4 {
+            background-color: yellow;
+        }
+
+        .color5 {
+            background-color: cornflowerblue;
+        }
+
+        .color6 {
+
+            background-color: gray;
+        }
+
+        .color7 {
+            text-align: right;
+            background-color: green;
+        }
+
+        .color8 {
+            text-align: center;
+            background-color: green;
+        }
+
+        .menu {
+            border-color: saddlebrown;
         }
     </style>
 </head>
@@ -133,9 +166,10 @@
 <br>
 <table border="1">
     <tr>
-        <td rowspan="3" colspan="2" class="foto">1</td>
-        <td colspan="2">2</td>
-        <td>3</td>
+        <td rowspan="3" colspan="2"><img src="file:///C:/Users/Maks/WebstormProjects/Prekt01/1.jpg" width="100px"
+                                         height="100px"></td>
+        <td colspan="2"><img src="file:///C:/Users/Maks/WebstormProjects/Prekt01/2.jpg" width="100px"></td>
+        <td><img src="file:///C:/Users/Maks/WebstormProjects/Prekt01/3.jpg" width="100px"></td>
     </tr>
     <tr >
         <td colspan="3">4</td>
@@ -146,13 +180,137 @@
         <td>7</td>
     </tr>
     <tr>
-        <td >8</td>
+        <td>8</td>
         <td rowspan="2">9</td>
         <td colspan="2" rowspan="2">10</td>
     </tr>
-    <tr><td>11</td></tr>
+    <tr>
+        <td>11</td>
+    </tr>
 
 
 </table>
+<br>
+
+<table border="1">
+    <tr>
+        <td class="color1"> № п/п</td>
+        <td class="color2"> Назва</td>
+        <td class="color3"> Ціна, грн</td>
+        <td class="color4"> Країна виготовлення</td>
+    </tr>
+    <tr>
+        <td class="color1"> 1</td>
+        <td class="color2"> Олівець кольоровий</td>
+        <td class="color3"> 8</td>
+        <td class="color4"> Польща</td>
+    </tr>
+    <tr>
+        <td class="color1"> 2</td>
+        <td class="color2"> Лінійка 20см</td>
+        <td class="color3"> 12</td>
+        <td class="color4"> Литва</td>
+    </tr>
+    <tr>
+        <td class="color1"> 3</td>
+        <td class="color2"> Зошит в клітинку</td>
+        <td class="color3"> 12</td>
+        <td class="color4"> Білорусь</td>
+    </tr>
+    <tr>
+        <td class="color1"> 4</td>
+        <td class="color2"> Ноутбук</td>
+        <td class="color3"> 15000</td>
+        <td class="color4"> Україна</td>
+    </tr>
+</table>
+<br>
+<table border="1">
+    <tr>
+        <td class="color1"> №</td>
+        <td class="color1"> ПІБ</td>
+        <td class="color1"> Адреса</td>
+        <td class="color1"> Телефон</td>
+    </tr>
+    <tr>
+        <td class="color5"> 1</td>
+        <td class="color6"> Бевз Максим Ігорович</td>
+        <td class="color6"> Житомир</td>
+        <td class="color6"> 0974686646</td>
+    </tr>
+    <tr>
+        <td class="color5"> 2</td>
+        <td class="color6"> Коваль Іван Попович</td>
+        <td class="color6"> Черняхів</td>
+        <td class="color6"> 0977767676</td>
+    </tr>
+    <tr>
+        <td class="color5"> 3</td>
+        <td class="color6"> Кондратюк Назарій Вікторович</td>
+        <td class="color6"> Андрушівка</td>
+        <td class="color6"> 0974686999</td>
+    </tr>
+    <tr>
+        <td class="color5"> 4</td>
+        <td class="color6"> Моїсеєв Євгеній Михайлович</td>
+        <td class="color6"> Житомир</td>
+        <td class="color6"> 0974677756</td>
+    </tr>
+    <tr>
+        <td class="color7" colspan="3"> Загальна кількість</td>
+        <td class="color8"> 4</td>
+    </tr>
+</table>
+
+<br>
+<table class="menu" border="2">
+    <tr>
+        <td colspan="5" class="color5">Шапка</td>
+    </tr>
+    <tr>
+        <td class="color1">Меню</td>
+        <td class="color1">Меню</td>
+        <td class="color1">Меню</td>
+        <td class="color1">Меню</td>
+        <td class="color1">Меню</td>
+    </tr>
+    <tr>
+        <td class="color2" colspan="2" height="100px">Новини</td>
+        <td class="color4" colspan="3">Контент</td>
+    </tr>
+
+</table>
+<br>
+<table class="menu" border="2">
+    <tr>
+        <td class="color5" width="200px" height="10px"><h2>Шапка</h2></td>
+        <td class="color1" rowspan="2" width="150px">Меню</td>
+    </tr>
+    <tr>
+
+        <td class="color1" height="100px">Контент</td>
+    </tr>
+    <tr>
+        <td class="color2" colspan="2">Низ сайта</td>
+
+    </tr>
+
+</table>
+<br>
+<table class="menu" border="2">
+    <tr>
+        <td class="color5" height="10px" rowspan="3">Новини</td>
+        <td class="color1" width="150px"><h3>Шапка</h3></td>
+    </tr>
+    <tr>
+
+        <td class="color1" height="100px">Меню</td>
+    </tr>
+    <tr>
+        <td class="color2">Контент</td>
+
+    </tr>
+</table>
+
 </body>
 </html>
